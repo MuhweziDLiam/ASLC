@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#186060</color>
+    <color name="colorPrimaryDark">#906018</color>
+    <color name="colorAccent">#004848</color>
+    <color name="colorLightBlue">#187878</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorBlueLight">#189090</color>
+
+    <color name="dot_dark_screen2">#14a895</color>
+
+    <color name="contentBadgeTitle">#a9a9a9</color>
+
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <color name="light_green">#00d890</color>
+
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <color name="contentDividerLine">#e0e0e0</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="semi_white">#e0e0e0</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+</resources>

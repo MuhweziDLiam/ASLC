@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            android:orientation="vertical"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="200dp">
+
+
+                <ImageView
+                    android:src="@mipmap/ic_launcher_logo"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="100dp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_magnificent"
+                android:padding="20dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_usage_rounded_corner"
+                android:layout_height="wrap_content">
+
+
+                <!-- Name Label -->
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/input_name_til"
+                    android:layout_marginTop="40dp"
+                    android:textColorHint="@color/black"
+                    android:layout_marginBottom="8dp">
+                    <EditText android:id="@+id/input_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:inputType="text"
+                        android:hint="Username" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--  Email Label -->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/input_email_til"
+                    android:textColorHint="@color/black"
+                    android:layout_marginBottom="10dp">
+                    <EditText android:id="@+id/input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:inputType="textPassword"
+                        android:hint="Password" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <com.strategic.africa.aslc.util.CustomTextView
+                    android:id="@+id/link_forgot"
+                    app:fontFamily="malgun_gothic_semilight.ttf"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_login"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/black"
+                    android:text="Forgot Password ?"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:background="@drawable/round_button_bg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/ll_magnificent"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-30dp"
+                android:padding="12dp"
+                android:text="Login"/>
+
+            <com.strategic.africa.aslc.util.CustomTextView
+                android:id="@+id/link_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_login"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                app:fontFamily="malgun_gothic_semilight.ttf"
+                android:layout_marginBottom="24dp"
+                android:textColor="@color/white"
+                android:text="No account yet? Create one"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+
+        </RelativeLayout>
+
+</ScrollView>
